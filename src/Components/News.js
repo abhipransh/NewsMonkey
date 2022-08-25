@@ -53,6 +53,7 @@ export class News extends Component {
   }
 
   handleNextClick = async () => {
+    console.log("Abhipransh")
     this.setState({ page: this.state.page + 1 })
     this.updateNews()
   }
